@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class ativ03{
+    public static void main(String[] args){
+        Scanner scanner = new Scanner (System.in);
+        double nota1 = 0.0;
+        double nota2 = 0.0;
+        double mediaFinal = 0.0;
+        
+        System.out.println("Digite a primeira nota: ");
+        nota1 = scanner.nextDouble();
+        System.out.println("Digite a segunda nota: ");
+        nota2 = scanner.nextDouble();
+
+        mediaFinal = (nota1 + nota2 / 2);
+        System.out.println("a sua media final eh " + mediaFinal);
+        scanner.close();
+        
+    }
+}
