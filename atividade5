@@ -1,0 +1,27 @@
+import java.util.Scanner;
+class atv05{
+    public static void main(String[] args){
+        Scanner scanner = new Scanner (System.in);
+        int numero1 = 0;
+        int numero2 = 0;
+        int soma = 0;
+        int sub = 0;
+        int div = 0; 
+        int multi = 0;
+        
+        System.out.println("DIgite o primeiro numero: ");
+        numero1 = scanner.nextInt();
+        System.out.println("DIgite o segundo numero: ");
+        numero2 = scanner.nextInt();
+        
+        soma = (numero1 + numero2);
+        sub = (numero1 - numero2);
+        div = (numero1 / numero2);
+        multi = (numero1 * numero2);
+        System.out.println(" o valor em soma eh: " + soma);
+         System.out.println(" o valor em subtracao eh: " + sub);
+          System.out.println(" o valor em divisao eh: " + div);
+           System.out.println(" o valor em multiplicacao eh: " + multi);
+        scanner.close();
+    }
+}
