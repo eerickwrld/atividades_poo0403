@@ -1,0 +1,24 @@
+import java.util.Scanner;
+class atv06{
+    public static void main(String[] args){
+        Scanner scanner = new Scanner (System.in);
+        
+        String nomeProd = "";
+        double preco = 0.0;
+        int desconto = 0;
+        double novoPreco = 0.0;
+        
+        System.out.println("DIgite o nome do produto: ");
+        nomeProd = scanner.nextLine();
+        System.out.println(" digite o preco do produto: ");
+        preco = scanner.nextDouble();
+        System.out.println("Digite o percentual de desconto: ");
+        desconto = scanner.nextInt();
+        
+        novoPreco = (preco * desconto / 100 );
+        System.out.println("o novo preco de " + nomeProd + " eh " + novoPreco);
+        scanner.close();
+        
+    }
+}
+        
