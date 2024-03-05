@@ -1,0 +1,24 @@
+import java.util.Scanner;
+class atv1{
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        
+        int numero1 = 0;
+        int numero2 = 0;
+        int numero3 = 0;
+        int valor = 0;
+        
+        System.out.println("digite o primeiro numero: ");
+        numero1 = scanner.nextInt();
+        System.out.println("digite o segundo numero: ");
+        numero2 = scanner.nextInt();
+        System.out.println("digite o terceiro numero: ");
+        numero3 = scanner.nextInt();
+        
+        valor = ( numero1 + numero2 + numero3);
+        System.out.println("o valor eh " + valor);
+        scanner.close();
+    
+        
+    }
+}
